@@ -1,470 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[<div "featureFile">Feature File: C:&#x2F;Users&#x2F;priyanshua&#x2F;Desktop&#x2F;Data&#x2F;com.qa.CucumberwithTestNG&#x2F;src&#x2F;main&#x2F;java&#x2F;Features&#x2F;Signup.feature</div>]]>
+      <![CDATA[<div "featureFile">Feature File: C:&#x2F;Users&#x2F;priyanshua&#x2F;Desktop&#x2F;Data&#x2F;com.qa.CucumberwithTestNG&#x2F;src&#x2F;main&#x2F;java&#x2F;Features&#x2F;login.feature</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
+      <![CDATA[<div "result">title of login Page is FREE CRM (PASSED : 5s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">user enters &quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;MeghaJKHGHGDHGD01000_1132&quot;,&quot;Chetu@123&quot; and &quot;Chetu@123&quot; into mandatory fields except Edition (SKIPPED)</div>]]>
+      <![CDATA[<div "result">title of login Page is FREE CRM (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
+      <![CDATA[<div "result">user enters valid username and password (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">appropriate message in a pop up related to please select the Edition should get displayed (SKIPPED)</div>]]>
+      <![CDATA[<div "result">user clicks on Login Button (PASSED : 12s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div>]]>
+      <![CDATA[<div "result">homepage is displayed (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
+      <![CDATA[<div "result">validate logged in username (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">enters valid details like &quot;Free Edition&quot;,&quot;C.P&quot;,&quot;Gulati&quot;,&quot;Cp@yopmail.com&quot;,&quot;Cp@yopmail.com&quot;,&quot;JHGH&quot; and &quot;Chetu@123&quot;,&quot;Chetu@123&quot; (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">appropriate validation message related to the invalid username length should get displayed (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">enters valid details like &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;MeghaE11RT0098_1132&quot; and &quot;1234&quot;,&quot;1234&quot; (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">appropriate validation message related to the invalid length of passwords should get displayed into the sign up screen 1 (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user enters valid data in &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;pampas_lkj11hg_1132&quot;,&quot;Chetu@123&quot; and &quot;Chetu@123&quot; and invalid &quot;megha@yopmail.com&quot;,&quot;meghas@yopmail.com&quot; fields (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">appropriate validation message should get displayed related to the invalid combination of emails into the sign up screen 1 (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user enters valid data in &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;thhgfkhgf11dk_1132&quot;,&quot;Chetu@123&quot; and &quot;Chetu@123&quot; and invalid &quot;megha&quot;,&quot;megha&quot; fields (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">appropriate validation message should get displayed related to the invalid format of emails into the sign up screen 1 (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user enters valid data into &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;hdhgdk111hgk1132&quot; fields expect passwords (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">submit button should be disabled (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">enters valid details like &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;kjhgf111188551122&quot; and &quot;Chetu@123&quot;,&quot;Chetu@123&quot; (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">clearing out any of the entered values (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">submit button should be disabled (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">submit button should be disabled (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">enters valid details like &quot;Free Edition&quot;,&quot;C.P&quot;,&quot;Gulati&quot;,&quot;Cp@yopmail.com&quot;,&quot;Cp@yopmail.com&quot;,&quot;Priyanshua&quot; and &quot;Chetu@123&quot;,&quot;Chetu@123&quot; (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">appropriate message in a pop up related to the username already exists should get displayed (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">enters valid details like &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;kljdvg111gjhkj8412&quot; and &quot;Chetu@123&quot;,&quot;Chetu@1234&quot; (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">appropriate validation message related to the invalid combinations of password should get displayed on the sign up page (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user doesn&#x27;t enter valid data into mandatory fields except &quot;Free Edition&quot; (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">appropriate validation message should get displayed into the sign up screen (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">enters valid details like &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;HRTYUI111K098877&quot; and &quot;Chetu@123&quot;,&quot;Chetu@123&quot; (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user should move to sign up screen2 (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user enters valid &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;Me8855981132&quot;,&quot;Chetu@123&quot; and &quot;Chetu@123&quot; by moving to next textfield through tabs (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user should move to sign up screen2 (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user enters valid &quot;Infosys&quot;,&quot;8588887023&quot;,&quot;9958948650&quot;,&quot;http:&#x2F;&#x2F;chetu.com&quot;,&quot;meghassss@yopmail.com&quot;,&quot;TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST&quot;,&quot;West Suite&quot;,&quot;Miami&quot;,&quot;Florida&quot;,&quot;33027&quot;,&quot;United States of America&quot; by moving to next textfield through tabs (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">sign up user try to submit company profile information (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user should redirect to signup screen3 (SKIPPED)</div>]]>
+      <![CDATA[<div "result">logout from the application (PASSED : 2s)</div>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="66528" started-at="2020-01-07T12:08:14Z" finished-at="2020-01-07T12:09:20Z">
+  <suite name="Default suite" duration-ms="40471" started-at="2020-01-07T13:58:19Z" finished-at="2020-01-07T13:58:59Z">
     <groups>
       <group name="cucumber">
         <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@3fee9989]" name="feature" class="MyRunner.TestRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="66528" started-at="2020-01-07T12:08:14Z" finished-at="2020-01-07T12:09:20Z">
+    <test name="Default test" duration-ms="40471" started-at="2020-01-07T13:58:19Z" finished-at="2020-01-07T13:58:59Z">
       <class name="MyRunner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:MyRunner.TestRunner@3fee9989]" name="setUpClass" is-config="true" duration-ms="365" started-at="2020-01-07T12:08:14Z" finished-at="2020-01-07T12:08:14Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:MyRunner.TestRunner@3fee9989]" name="setUpClass" is-config="true" duration-ms="365" started-at="2020-01-07T13:58:19Z" finished-at="2020-01-07T13:58:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@3fee9989]" name="feature" duration-ms="65665" started-at="2020-01-07T12:08:14Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-01-07T12:09:20Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@3fee9989]" name="feature" duration-ms="39854" started-at="2020-01-07T13:58:19Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-01-07T13:58:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA["FREE CRM SignUp Feature"]]>
+                <![CDATA["FREE CRM Login Feature"]]>
               </value>
             </param>
           </params>
-          <exception class="cucumber.runtime.CucumberException">
-            <message>
-              <![CDATA[java.lang.NullPointerException]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: java.lang.NullPointerException
-at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:78)
-at MyRunner.TestRunner.feature(TestRunner.java:35)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NullPointerException
-at com.qa.base.TestBase.initialization(TestBase.java:48)
-at stepDefinations.SignupStepDefination.setup(SignupStepDefination.java:48)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at cucumber.runtime.Utils$1.call(Utils.java:32)
-at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-at cucumber.runtime.Utils.invoke(Utils.java:26)
-at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
-at cucumber.runtime.HookDefinitionMatch.runStep(HookDefinitionMatch.java:17)
-at cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)
-at cucumber.api.TestStep.run(TestStep.java:83)
-at cucumber.api.TestCase.run(TestCase.java:58)
-at cucumber.runner.Runner.runPickle(Runner.java:80)
-at cucumber.runtime.Runtime.runFeature(Runtime.java:119)
-at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:75)
-... 26 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
             <line>
-              <![CDATA[<div "featureFile">Feature File: C:&#x2F;Users&#x2F;priyanshua&#x2F;Desktop&#x2F;Data&#x2F;com.qa.CucumberwithTestNG&#x2F;src&#x2F;main&#x2F;java&#x2F;Features&#x2F;Signup.feature</div>]]>
+              <![CDATA[<div "featureFile">Feature File: C:&#x2F;Users&#x2F;priyanshua&#x2F;Desktop&#x2F;Data&#x2F;com.qa.CucumberwithTestNG&#x2F;src&#x2F;main&#x2F;java&#x2F;Features&#x2F;login.feature</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
+              <![CDATA[<div "result">title of login Page is FREE CRM (PASSED : 5s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">user enters &quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;MeghaJKHGHGDHGD01000_1132&quot;,&quot;Chetu@123&quot; and &quot;Chetu@123&quot; into mandatory fields except Edition (SKIPPED)</div>]]>
+              <![CDATA[<div "result">title of login Page is FREE CRM (PASSED : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
+              <![CDATA[<div "result">user enters valid username and password (PASSED : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">appropriate message in a pop up related to please select the Edition should get displayed (SKIPPED)</div>]]>
+              <![CDATA[<div "result">user clicks on Login Button (PASSED : 12s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div>]]>
+              <![CDATA[<div "result">homepage is displayed (PASSED : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
+              <![CDATA[<div "result">validate logged in username (PASSED : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">enters valid details like &quot;Free Edition&quot;,&quot;C.P&quot;,&quot;Gulati&quot;,&quot;Cp@yopmail.com&quot;,&quot;Cp@yopmail.com&quot;,&quot;JHGH&quot; and &quot;Chetu@123&quot;,&quot;Chetu@123&quot; (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">appropriate validation message related to the invalid username length should get displayed (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">enters valid details like &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;MeghaE11RT0098_1132&quot; and &quot;1234&quot;,&quot;1234&quot; (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">appropriate validation message related to the invalid length of passwords should get displayed into the sign up screen 1 (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user enters valid data in &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;pampas_lkj11hg_1132&quot;,&quot;Chetu@123&quot; and &quot;Chetu@123&quot; and invalid &quot;megha@yopmail.com&quot;,&quot;meghas@yopmail.com&quot; fields (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">appropriate validation message should get displayed related to the invalid combination of emails into the sign up screen 1 (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user enters valid data in &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;thhgfkhgf11dk_1132&quot;,&quot;Chetu@123&quot; and &quot;Chetu@123&quot; and invalid &quot;megha&quot;,&quot;megha&quot; fields (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">appropriate validation message should get displayed related to the invalid format of emails into the sign up screen 1 (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user enters valid data into &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;hdhgdk111hgk1132&quot; fields expect passwords (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">submit button should be disabled (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">enters valid details like &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;kjhgf111188551122&quot; and &quot;Chetu@123&quot;,&quot;Chetu@123&quot; (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">clearing out any of the entered values (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">submit button should be disabled (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">submit button should be disabled (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">enters valid details like &quot;Free Edition&quot;,&quot;C.P&quot;,&quot;Gulati&quot;,&quot;Cp@yopmail.com&quot;,&quot;Cp@yopmail.com&quot;,&quot;Priyanshua&quot; and &quot;Chetu@123&quot;,&quot;Chetu@123&quot; (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">appropriate message in a pop up related to the username already exists should get displayed (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">enters valid details like &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;kljdvg111gjhkj8412&quot; and &quot;Chetu@123&quot;,&quot;Chetu@1234&quot; (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">appropriate validation message related to the invalid combinations of password should get displayed on the sign up page (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user doesn&#x27;t enter valid data into mandatory fields except &quot;Free Edition&quot; (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">appropriate validation message should get displayed into the sign up screen (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">enters valid details like &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;HRTYUI111K098877&quot; and &quot;Chetu@123&quot;,&quot;Chetu@123&quot; (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user should move to sign up screen2 (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user is already on Sign Up Screen (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user enters valid &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;Me8855981132&quot;,&quot;Chetu@123&quot; and &quot;Chetu@123&quot; by moving to next textfield through tabs (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user tries to sign up (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user should move to sign up screen2 (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user enters valid &quot;Infosys&quot;,&quot;8588887023&quot;,&quot;9958948650&quot;,&quot;http:&#x2F;&#x2F;chetu.com&quot;,&quot;meghassss@yopmail.com&quot;,&quot;TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST&quot;,&quot;West Suite&quot;,&quot;Miami&quot;,&quot;Florida&quot;,&quot;33027&quot;,&quot;United States of America&quot; by moving to next textfield through tabs (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">sign up user try to submit company profile information (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user should redirect to signup screen3 (SKIPPED)</div>]]>
+              <![CDATA[<div "result">logout from the application (PASSED : 2s)</div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:MyRunner.TestRunner@3fee9989]" name="tearDownClass" is-config="true" duration-ms="300" started-at="2020-01-07T12:09:20Z" finished-at="2020-01-07T12:09:20Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:MyRunner.TestRunner@3fee9989]" name="tearDownClass" is-config="true" duration-ms="146" started-at="2020-01-07T13:58:59Z" finished-at="2020-01-07T13:58:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

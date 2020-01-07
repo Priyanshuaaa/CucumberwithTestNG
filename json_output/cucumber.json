@@ -1,0 +1,129 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12642142411,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefination.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "FREE CRM Login Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 5865704003,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5951027005,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "title of login Page is FREE CRM",
+            "match": {
+              "location": "LoginStepDefination.title_of_login_Page_is_FREE_CRM()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5066985,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "title of login Page is FREE CRM",
+            "match": {
+              "location": "LoginStepDefination.title_of_login_Page_is_FREE_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 439984172,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters valid username and password",
+            "match": {
+              "location": "LoginStepDefination.user_enters_valid__Username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12206969023,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks on Login Button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5102336,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "homepage is displayed",
+            "match": {
+              "location": "LoginStepDefination.homepage_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 246551942,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "validate logged in username",
+            "match": {
+              "location": "LoginStepDefination.validate_logged_in_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2428050720,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "logout from the application",
+            "match": {
+              "location": "LoginStepDefination.logout_from_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "FREE CRM Login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/priyanshua/Desktop/Data/com.qa.CucumberwithTestNG/src/main/java/Features/login.feature",
+    "tags": []
+  }
+]
