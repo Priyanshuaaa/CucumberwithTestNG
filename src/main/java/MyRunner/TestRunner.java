@@ -11,7 +11,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 
 @CucumberOptions(
 		//@CucumberOptions(features = {"Test1.feature", "Test2.feature"})//used in case if anyone wants to preserve the order of execution of feature files.
-		features = {"C:\\Users\\priyanshua\\Desktop\\Data\\com.qa.CucumberwithTestNG\\src\\main\\java\\Features\\Signup.feature"}, //the path of the feature files
+		features = {"C:\\Users\\priyanshua\\Desktop\\Data\\com.qa.CucumberwithTestNG\\src\\main\\java\\Features\\login.feature"}, //the path of the feature files
 		glue={"stepDefinations"}, //the path of the step definition files
 		format= {"pretty","html:test-outout", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml","rerun:target/rerun.txt"}, //to generate different types of reporting
 		monochrome = true, //display the console output in a proper readable format
