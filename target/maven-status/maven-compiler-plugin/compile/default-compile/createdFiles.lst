@@ -1,6 +1,6 @@
 com\qa\pages\SignUpPage2.class
-stepDefinations\SignupStepDefination.class
 com\qa\pages\Contactspage.class
+stepDefinations\LoginStepDefination.class
 com\qa\pages\TasksPage.class
 com\qa\pages\SignupPage.class
 com\qa\util\TestUtil.class

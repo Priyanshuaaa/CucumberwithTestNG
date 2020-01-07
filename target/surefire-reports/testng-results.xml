@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: C:&#x2F;Users&#x2F;priyanshua&#x2F;Desktop&#x2F;Data&#x2F;com.qa.CucumberwithTestNG&#x2F;src&#x2F;main&#x2F;java&#x2F;Features&#x2F;login.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">title of login Page is FREE CRM (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">title of login Page is FREE CRM (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enters valid username and password (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user clicks on Login Button (PASSED : 12s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">homepage is displayed (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">validate logged in username (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">logout from the application (PASSED : 2s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38593" started-at="2020-01-07T14:15:49Z" finished-at="2020-01-07T14:16:28Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@617c74e5]" name="feature" class="MyRunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Sign Up Feature Test Execution" duration-ms="38593" started-at="2020-01-07T14:15:49Z" finished-at="2020-01-07T14:16:28Z">
+      <class name="MyRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:MyRunner.TestRunner@617c74e5]" name="setUpClass" is-config="true" duration-ms="399" started-at="2020-01-07T14:15:49Z" finished-at="2020-01-07T14:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@617c74e5]" name="feature" duration-ms="38031" started-at="2020-01-07T14:15:50Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-01-07T14:16:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["FREE CRM Login Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: C:&#x2F;Users&#x2F;priyanshua&#x2F;Desktop&#x2F;Data&#x2F;com.qa.CucumberwithTestNG&#x2F;src&#x2F;main&#x2F;java&#x2F;Features&#x2F;login.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">title of login Page is FREE CRM (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">title of login Page is FREE CRM (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enters valid username and password (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user clicks on Login Button (PASSED : 12s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">homepage is displayed (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">validate logged in username (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">logout from the application (PASSED : 2s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:MyRunner.TestRunner@617c74e5]" name="tearDownClass" is-config="true" duration-ms="66" started-at="2020-01-07T14:16:28Z" finished-at="2020-01-07T14:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- MyRunner.TestRunner -->
+    </test> <!-- Sign Up Feature Test Execution -->
+  </suite> <!-- Suite -->
+</testng-results>
