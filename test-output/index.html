@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\priyanshua\AppData\Local\Temp\testng-eclipse-827323962\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MyRunner.TestRunner" hash-for-method="feature(&quot;FREE CRM SignUp Feature&quot;)">feature("FREE CRM SignUp Feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">MyRunner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="feature(&quot;FREE CRM SignUp Feature&quot;)">
+                  </a> <!-- feature("FREE CRM SignUp Feature") -->
+                  <span class="method-name">feature</span>
+                  <span class="parameters">("FREE CRM SignUp Feature")</span>
+                  <div class="stack-trace">cucumber.runtime.CucumberException: java.lang.NullPointerException
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:78)
+	at MyRunner.TestRunner.feature(TestRunner.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NullPointerException
+	at com.qa.base.TestBase.initialization(TestBase.java:48)
+	at stepDefinations.SignupStepDefination.setup(SignupStepDefination.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:32)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:26)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.HookDefinitionMatch.runStep(HookDefinitionMatch.java:17)
+	at cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:119)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:75)
+	... 26 more
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\priyanshua\AppData\Local\Temp\testng-eclipse-827323962\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;MyRunner.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">feature</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'feature')
+data.setCell(0, 2, 'MyRunner.TestRunner')
+data.setCell(0, 3, 65665);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">feature("FREE CRM SignUp Feature")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "featureFile">Feature File: C:&#x2F;Users&#x2F;priyanshua&#x2F;Desktop&#x2F;Data&#x2F;com.qa.CucumberwithTestNG&#x2F;src&#x2F;main&#x2F;java&#x2F;Features&#x2F;Signup.feature</div></span>
+                <span class="reporter-method-output"><div "result">user is already on Sign Up Screen (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user enters &quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;MeghaJKHGHGDHGD01000_1132&quot;,&quot;Chetu@123&quot; and &quot;Chetu@123&quot; into mandatory fields except Edition (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user tries to sign up (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">appropriate message in a pop up related to please select the Edition should get displayed (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user is already on Sign Up Screen (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">enters valid details like &quot;Free Edition&quot;,&quot;C.P&quot;,&quot;Gulati&quot;,&quot;Cp@yopmail.com&quot;,&quot;Cp@yopmail.com&quot;,&quot;JHGH&quot; and &quot;Chetu@123&quot;,&quot;Chetu@123&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user tries to sign up (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">appropriate validation message related to the invalid username length should get displayed (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user is already on Sign Up Screen (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">enters valid details like &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;MeghaE11RT0098_1132&quot; and &quot;1234&quot;,&quot;1234&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user tries to sign up (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">appropriate validation message related to the invalid length of passwords should get displayed into the sign up screen 1 (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user is already on Sign Up Screen (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user enters valid data in &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;pampas_lkj11hg_1132&quot;,&quot;Chetu@123&quot; and &quot;Chetu@123&quot; and invalid &quot;megha@yopmail.com&quot;,&quot;meghas@yopmail.com&quot; fields (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user tries to sign up (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">appropriate validation message should get displayed related to the invalid combination of emails into the sign up screen 1 (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user is already on Sign Up Screen (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user enters valid data in &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;thhgfkhgf11dk_1132&quot;,&quot;Chetu@123&quot; and &quot;Chetu@123&quot; and invalid &quot;megha&quot;,&quot;megha&quot; fields (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user tries to sign up (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">appropriate validation message should get displayed related to the invalid format of emails into the sign up screen 1 (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user is already on Sign Up Screen (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user enters valid data into &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;hdhgdk111hgk1132&quot; fields expect passwords (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user tries to sign up (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">submit button should be disabled (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user is already on Sign Up Screen (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">enters valid details like &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;kjhgf111188551122&quot; and &quot;Chetu@123&quot;,&quot;Chetu@123&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">clearing out any of the entered values (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">submit button should be disabled (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user is already on Sign Up Screen (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">submit button should be disabled (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user is already on Sign Up Screen (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">enters valid details like &quot;Free Edition&quot;,&quot;C.P&quot;,&quot;Gulati&quot;,&quot;Cp@yopmail.com&quot;,&quot;Cp@yopmail.com&quot;,&quot;Priyanshua&quot; and &quot;Chetu@123&quot;,&quot;Chetu@123&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user tries to sign up (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">appropriate message in a pop up related to the username already exists should get displayed (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user is already on Sign Up Screen (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">enters valid details like &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;kljdvg111gjhkj8412&quot; and &quot;Chetu@123&quot;,&quot;Chetu@1234&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user tries to sign up (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">appropriate validation message related to the invalid combinations of password should get displayed on the sign up page (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user is already on Sign Up Screen (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user doesn&#x27;t enter valid data into mandatory fields except &quot;Free Edition&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user tries to sign up (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">appropriate validation message should get displayed into the sign up screen (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">sign up user should stay in sign up screen 1 only (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user is already on Sign Up Screen (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">enters valid details like &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;HRTYUI111K098877&quot; and &quot;Chetu@123&quot;,&quot;Chetu@123&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user tries to sign up (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user should move to sign up screen2 (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user is already on Sign Up Screen (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user enters valid &quot;Free Edition&quot;,&quot;Megha&quot;,&quot;Jain&quot;,&quot;megha@yopmail.com&quot;,&quot;megha@yopmail.com&quot;,&quot;Me8855981132&quot;,&quot;Chetu@123&quot; and &quot;Chetu@123&quot; by moving to next textfield through tabs (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user tries to sign up (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user should move to sign up screen2 (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user enters valid &quot;Infosys&quot;,&quot;8588887023&quot;,&quot;9958948650&quot;,&quot;http:&#x2F;&#x2F;chetu.com&quot;,&quot;meghassss@yopmail.com&quot;,&quot;TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST&quot;,&quot;West Suite&quot;,&quot;Miami&quot;,&quot;Florida&quot;,&quot;33027&quot;,&quot;United States of America&quot; by moving to next textfield through tabs (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">sign up user try to submit company profile information (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">user should redirect to signup screen3 (SKIPPED)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">MyRunner.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">feature("FREE CRM SignUp Feature")</span>
+                <span class="method-start">526 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">66214 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

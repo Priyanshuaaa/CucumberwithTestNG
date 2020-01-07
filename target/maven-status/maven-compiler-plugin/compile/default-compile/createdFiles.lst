@@ -1,0 +1,13 @@
+com\qa\pages\SignUpPage2.class
+stepDefinations\SignupStepDefination.class
+com\qa\pages\Contactspage.class
+com\qa\pages\TasksPage.class
+com\qa\pages\SignupPage.class
+com\qa\util\TestUtil.class
+com\qa\pages\HomePage.class
+com\qa\pages\LoginafteregistrationPage.class
+com\qa\pages\DealsPage.class
+MyRunner\TestRunner.class
+com\qa\pages\Loginpage.class
+com\qa\pages\SignUpPage3.class
+com\qa\base\TestBase.class
